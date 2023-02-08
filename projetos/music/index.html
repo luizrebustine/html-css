@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <style>
+        body{
+            background-image: linear-gradient(-135deg, #27353C, #0a0a0a);
+        }
+        
+        #menu{
+            background-color: black;
+            height: 1000px;
+            width: 300px;
+            margin: -23px -08px;
+        }
+        #menu > h1{
+            color:white;
+            text-align: center;
+            font: lighter 3em 'Arial';
+        }
+        .capa{
+            position: absolute;
+            width: 300px;
+            margin: 72px 370px;
+            border-radius: 20px;
+            box-shadow: 7px 7px 10px #000000a4;
+        }
+        .nome{
+            position: absolute;
+            margin: 165px 700px;
+            color: white;
+            font-size: 7em;
+            text-shadow: 5px 5px 10px black;
+        }
+        .artista{
+            position: absolute;
+            color: white;
+            margin: 310px 707px;
+        }
+        .link_artista{
+            color: white;
+            text-decoration: none;
+        }
+        .link_artista:hover{
+            text-decoration: underline;
+        }
+        .artista::after{
+            content:' • 2018 • 8 músicas, 23min 39 s';
+        }
+        #tracklist{
+            position: absolute;
+            background-color: #00000086;
+            height: 507px;
+            width: 1912px;
+            margin: 410px 0px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="album">
+        <img src="capa.jpg" alt="capa" class="capa">
+        <h1 class="nome">Foodstation</h1>
+        <h2 class="artista"><a href="" class="link_artista">Sound Food Gang</a></h2>
+    </div>
+    <div id="tracklist">
+    </div>
+</body>
+</html>
