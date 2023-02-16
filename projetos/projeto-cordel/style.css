@@ -14,31 +14,31 @@
 header{
     background: black;
     padding: 50px;
-}
-header p{
     color: white;
     text-align: center;
+}
+header p{
     font: normal 1.1em var(--fonte-padrao);
 }
 header h1{
-    color: white;
-    font: bold 10vw var(--fonte-titulo);
-    text-align: center;   
+    font: bold 10vw var(--fonte-titulo); 
 }
 /*FIM DO HEADER*/
-/*Formatação de Texto*/
-.outcordel{
+/*Formatação de Texto e Padding*/
+article{
+    padding: 10vh 0px 2em 30px;
     font: normal 3.5vw var(--fonte-cordel);
     line-height: 2em;
-    padding: 60px 0px 70px 35px;
+}
+.outcordel{
+    padding-bottom: 2em;
 }
 .incordel{
-    font: normal 3.5vw var(--fonte-cordel);
-    line-height: 2em;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 30px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.603)
+    background-color: rgba(0, 0, 0, 0.603);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.384);
 }
 /*Backgrounds*/
 #cordeljoaninha{
