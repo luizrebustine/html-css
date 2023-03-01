@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
+        }
+        header{
+            background-color: rgb(22, 22, 22);
+        }
+        header h1{
+            text-align: center;
+            font:bold 5vw 'Climate Crisis', sans-serif;
+            color: rgb(195, 209, 5);
+            padding: 20px;
+        }
+        main{
+            background-color: rgb(10, 10, 10);
+            min-width: 320px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        tr{
+            border: 1px solid rgba(29, 28, 28, 0.658);
+        }
+        td, th{
+            font-size: 1.3em;
+            font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+            color: white;
+            padding: 27px;
+        }
+        th{
+            font-size: 1.5em;
+            background-color: rgb(34, 34, 32);
+        }
+        .nota{
+            text-align: center;
+        }
+        .nota::after{
+            content:'\00a0\00a0' url('staricon.png');
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OS 10 MELHORES FILMES</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Filme</th>
+                    <th>Nota IMDb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. Um Sonho de Liberdade (1994)</td>
+                    <td class="nota">9,2</td>
+                </tr>
+                <tr>
+                    <td>2. O Poderoso Chefão (1972)</td>
+                    <td class="nota">9,2</td>
+                </tr>
+                <tr>
+                    <td>3. Batman: O Cavaleiro das Trevas (2008)</td>
+                    <td class="nota">9,0</td>
+                </tr>
+                <tr>
+                    <td>4. O Poderoso Chefão II (1974)</td>
+                    <td class="nota">9,0</td>
+                </tr>
+                <tr>
+                    <td>5. 12 Homens e uma Sentença (1957)</td>
+                    <td class="nota">9,0</td>
+                </tr>
+                <tr>
+                    <td>6. A Lista de Schindler (1993)</td>
+                    <td class="nota">8,9</td>
+                </tr>
+                <tr>
+                    <td>7. O Senhor dos Anéis: O Retorno do Rei (2003)</td>
+                    <td class="nota">8,9</td>
+                </tr>
+                <tr>
+                    <td>8. Pulp Fiction: Tempo de Violência (1994)</td>
+                    <td class="nota">8,8</td>
+                </tr>
+                <tr>
+                    <td>9. O Senhor dos Anéis: A Sociedade do Anel (2001)</td>
+                    <td class="nota">8,8</td>
+                </tr>
+                    <td>10. Três Homens em Conflito (1966)</td>
+                    <td class="nota">8,8</td>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
