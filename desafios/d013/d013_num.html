@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Num Pad</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+        body{
+            background-color: rgb(39, 37, 37);
+        }
+        table{
+            margin: auto;
+            width: 500px;
+            height: 500px;
+            border-collapse: collapse;
+        }
+        td{
+            background-color: rgb(22, 22, 22);
+            border: 1.4px solid black;
+            border-radius: 5px;
+            text-align: center;
+            padding: 10px;
+            font: normal 2.3em 'Tilt Neon', cursive;;
+            width: 100px;
+            height: 100px;
+            color: white;
+            box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.473);
+        }
+        td:hover{
+            background-color: rgb(46, 43, 43);
+            transition: 0.160s;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>NUM</td>
+            <td>/</td>
+            <td>*</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td rowspan="2">+</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td rowspan="2">&crarr;</td>
+        </tr>
+        <tr>
+            <td colspan="2">0</td>
+            <td>del</td>
+        </tr>
+    </table>
+</body>
+</html>

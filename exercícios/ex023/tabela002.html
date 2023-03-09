@@ -34,9 +34,7 @@
         table{
             width: 100%;
             border-collapse: collapse;
-        }
-        tr{
-            border: 1px solid rgba(29, 28, 28, 0.658);
+            position: relative;
         }
         td, th{
             font-size: 1.3em;
@@ -48,6 +46,17 @@
             font-size: 1.5em;
             background-color: rgb(34, 34, 32);
         }
+        tr{
+            border: 1px solid rgba(29, 28, 28, 0.658);
+        }
+        thead tr{
+            position:sticky;
+            top: 0;
+        }
+
+        tbody tr:nth-child(odd){
+            background-color: rgba(194, 166, 4, 0.486);
+        }
         .nota{
             text-align: center;
         }
@@ -58,14 +67,14 @@
 </head>
 <body>
     <header>
-        <h1>OS 10 MELHORES FILMES</h1>
+        <h1>OS 15 MELHORES FILMES</h1>
     </header>
     <main>
         <table>
             <thead>
                 <tr>
-                    <th>Filme</th>
-                    <th>Nota IMDb</th>
+                    <th scope="col">Filme</th>
+                    <th scope="col">Nota IMDb</th>
                 </tr>
             </thead>
             <tbody>
@@ -105,8 +114,30 @@
                     <td>9. O Senhor dos Anéis: A Sociedade do Anel (2001)</td>
                     <td class="nota">8,8</td>
                 </tr>
+                <tr>
                     <td>10. Três Homens em Conflito (1966)</td>
                     <td class="nota">8,8</td>
+                </tr>
+                <tr>
+                    <td>11. Forrest Gump: O Contador de Histórias (1994)</td>
+                    <td class="nota">8,8</td>
+                </tr>
+                <tr>
+                    <td>12. Clube da Luta (1999)</td>
+                    <td class="nota">8,7</td>
+                </tr>
+                <tr>
+                    <td>13. O Senhor dos Anéis: As Duas Torres (2002)</td>
+                    <td class="nota">8,7</td>
+                </tr>
+                <tr>
+                    <td>14. A Origem (2010)</td>
+                    <td class="nota">8,7</td>
+                </tr>
+                <tr>
+                    <td>15. O Império Contra-Ataca (1980)</td>
+                    <td class="nota">8,7</td>
+                </tr>
             </tbody>
         </table>
     </main>
