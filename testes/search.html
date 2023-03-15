@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <style>
+        body{
+            background:white;
+            margin: 0px;
+            width: 100vw;
+            height: 100vh;
+        }
+        header{
+            background: #E20088;
+            display: flex;
+            margin: auto;
+            align-items:center;
+            justify-content: space-around;
+            padding: 50px;
+        }
+        .search_box{
+            display: flex;
+            border-radius: 40px;
+            padding: 5px;
+            background-color: white;
+            justify-content: space-between;
+            align-items: center;
+            width: 700px;
+            min-width: 300px;
+            margin: 20px;
+        }
+        .search_input{
+            border: none;
+            background: none;
+            outline: none;
+            padding: 0px 0px 0px 20px;
+            color: #E20088;
+            font: normal 1em 'Arial';
+            line-height: 10px;
+            width: 500px;
+        }
+        .search_lupa{
+            padding:5px 13px 5px 5px;
+        }
+        .logo{
+            width: 250px;
+            min-width: 150px;
+        }
+        .logo img{
+            width:100%;
+        }
+        header h1{
+            color: white;
+            font: normal 2em 'Arial';
+            text-transform: uppercase;
+        }
+        /*nav bar*/
+        nav{
+            background-color: #E20088;
+            padding-bottom: 30px;
+        }
+        ul{
+            max-width: 810px;
+            margin: auto;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font: normal 1.3em 'Arial';
+        }
+        a:hover{
+            color: #e4a1c9;
+        }
+        .atendimento{
+            display: flex;
+            align-items: center
+        }
+        .atendimento a{
+            text-transform: uppercase;
+            font-size: 1.5vw;
+            padding: 0px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="">
+        </div>
+        <div class="search_box">
+            <input type="text" class="search_input" placeholder="O que você está buscando?">
+            <a href="#" class="search_lupa"><img src="searchrosa.png" alt="Lupa"></a>
+        </div>
+        <div class="atendimento">
+            <a href="#">Atendimento</a>
+            <img src="live-chat.png" alt="">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Coleção</a></li>
+            <li><a href="#">Acessórios</a></li>
+            <li><a href="#">Calças</a></li>
+            <li><a href="#">Croppeds</a></li>
+            <li><a href="#">Moda Mandrake</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
