@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background-color: hotpink;
+            font-family: 'Arial';
+        }
+        button{
+            padding: 5px;
+            border: none;
+            background-color: white;
+            border-radius: 5px;
+            font: normal 1.2em 'Arial';
+            cursor: pointer;
+        }
+        p{
+            font: normal 1.5em 'Arial';
+        }
+    </style>
+</head>
+<body>
+    <button onclick="clicou()">Clique em mim</button>
+    <div id="saida"></div>
+    <script>
+        function clicou() {
+            var s = window.document.getElementById('saida')
+            s.innerHTML += '<p>Você clicou!</p>'
+        }
+    </script>
+</body>
+</html>

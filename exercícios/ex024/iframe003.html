@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 98vw;
+            height: 550px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma Escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, et dicta reprehenderit quia nostrum, magnam sequi deserunt placeat earum consectetur reiciendis? Vero id minus nulla dolor mollitia? Voluptas cum quasi, omnis sit rem veritatis debitis nesciunt voluptates, doloremque, qui facilis officia! Nostrum ratione eius dignissimos sequi illum quae aperiam. Error?</p>
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira Página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, nobis? Ratione fugit eaque animi deserunt a repellendus facilis ipsam, aliquid, in, obcaecati eligendi. Recusandae perspiciatis neque cumque, eos nisi modi nobis! Cupiditate quae nesciunt ex obcaecati magni repudiandae enim expedita, placeat ipsa perferendis veniam dignissimos dolore harum facilis, quas quisquam earum dolores quaerat, maxime dolorem laudantium id! Iste expedita recusandae illo suscipit, molestiae hic mollitia quo odio blanditiis repellat numquam ipsum dolores doloremque tempore laborum harum, nulla nam aperiam maxime voluptates quibusdam ex! Assumenda aliquid eveniet dolorem quidem fuga a. Iusto facilis aperiam excepturi itaque animi eligendi quidem iste voluptate?</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" frameborder="1" id="tela" name="frame">
+        <p>Infelizmente seu navegador é uma merda!</p>
+    </iframe>
+</body>
+</html>
