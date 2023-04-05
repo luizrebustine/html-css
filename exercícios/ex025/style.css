@@ -66,3 +66,20 @@ form h1{
     cursor: pointer;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.377);
 }
+@media (max-width:550px){
+    form{
+        width: 70vw;
+    }
+    #login{
+        width: 70vw;
+        font-size: 4.5vw;
+    }
+}
+@media (max-width:450px){
+    #divemail, #divsenha{
+        font-size: 4.5vw;
+    }
+    #divsenha a{
+        font: size 3.5vw;
+    }
+}
