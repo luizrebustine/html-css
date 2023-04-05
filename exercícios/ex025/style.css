@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+:root{
+    --dfont:'Mulish', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--dfont);
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(-45deg, rgb(180, 76, 180), rgb(47, 47, 197));
+}
+form{
+    margin: auto;
+    align-self: center;
+    width: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 7px 4px 10px 1px rgba(0, 0, 0, 0.177);
+}
+form h1{
+    text-align: center;
+}
+#divemail, #divsenha{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+#idemail, #idsenha{
+    border-radius: 15px;
+    padding: 8px 8px 8px 13px;
+    margin-top: 8px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.377);
+    border: none;
+}
+#idemail:focus, #idsenha:focus{
+    outline: none;
+}
+#divsenha a{
+    font-size:0.95em;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+#divsenha a:hover{
+    text-decoration: underline;
+}
+#divlogin{
+    margin-top: 30px;
+}
+#login{
+    width: 400px;
+    background-color: rgb(88, 88, 212);
+    font-size: 1.3em;
+    padding: 5px;
+    border-radius: 30px;
+    border:none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.377);
+}

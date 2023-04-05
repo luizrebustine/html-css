@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <form action="none" autocomplete="off" method="post">
+        <h1>Login</h1>
+        <div id="divemail">
+            <label for="idemail">E-mail</label>
+            <input type="email" name="email" id="idemail">
+        </div>
+        <div id="divsenha">
+            <label for="idsenha">Senha</label>
+            <input type="password" name="senha" id="idsenha">
+            <a href="#">Esqueceu sua senha?</a>
+        </div>
+        <div id="divlogin">
+            <input type="submit" value="Entrar" id="login">
+        </div>
+    </form>
+    <script>
+        var submit = document.getElementById('login')
+        submit.addEventListener('click', clicar)
+        function clicar(){
+            var senha = document.getElementById('idsenha').value
+            var email = document.getElementById('idemail').value
+            alert(`Email: ${email}, Senha: ${senha}`)
+        }
+    </script>
+</body>
+</html>
